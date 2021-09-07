@@ -12,6 +12,11 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "iOS-ReCaptcha", path: "./Sources/recaptcha.framework")
+        .target(
+            name: "iOS-ReCaptcha",
+            dependencies: [
+                "recaptcha"
+            ]
+        )
     ]
 )
