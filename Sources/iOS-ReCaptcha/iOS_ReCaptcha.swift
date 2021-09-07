@@ -1,3 +1,0 @@
-
-
-struct iOS_ReCaptcha { }
